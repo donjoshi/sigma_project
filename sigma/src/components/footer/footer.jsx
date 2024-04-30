@@ -18,7 +18,8 @@ export default function Footer() {
                         </clipPath>
                     </defs>
                 </svg>
-                <img src="Images/" alt="" />
+                <img src="" alt="" />       
+
       
     </div>
   )
