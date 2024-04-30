@@ -1,0 +1,42 @@
+.test-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.Title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.Subtitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+.paragraph{
+    font-size: 16px;
+}
+.one{
+    display: flex;
+    gap: 24px;
+}
+
+.cta{
+    margin-top: 16px;
+    border-radius: 4px;
+
+}
+.test-img{
+    height: 146px;
+}
+.content-abt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 64px 10vw;
+}
+.plus{
+    position: fixed;
+   bottom: 0;
+    right:64px;
+
+}

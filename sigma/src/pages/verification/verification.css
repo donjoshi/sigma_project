@@ -1,0 +1,9 @@
+.para{
+    font-size: 21px;
+    width: 30vw;
+    display: block;
+    text-align: center;
+}
+.sentence{
+    display: inline-block;
+}
