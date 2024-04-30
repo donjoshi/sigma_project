@@ -8,6 +8,8 @@ import Recruit from "./pages/recruit/recruit";
 import Verification from "./pages/verification/verification";
 import About from "./pages/about/about";
 import Add_About from "./pages/add-about/add-about";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
