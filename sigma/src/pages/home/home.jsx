@@ -3,31 +3,24 @@ import NavbarMain from '../../components/navbar-main/navbar-main'
 import Footer from '../../components/footer/footer'
 
 export default function Home() {
-  return (
-    <div className='main-container'>
-        <div>
-            <NavbarMain />
-        </div>
-
-        <div className="content">
-            <div className="description">
-                <h1>Accelerate Mass Hiring</h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believablek</p>
-
-                <button className="Signup">Sign up for free</button>
-            
+    return (
+        <div className='main-container'>
+            <div>
+                <NavbarMain />
             </div>
 
-            <div className="image">
-                add image
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Accelerating Mass Hiring</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believablek</p>
+                    <button class="primary">Sign up for free</button></div>
+                <img class="hero-image" alt="" src="Images/Asset 5 1.png"/>
             </div>
-        </div>
+            <div className="footer">
+                <Footer />
+            </div>
 
-        <div className="footer">
-            <Footer />
-        </div>
 
-      
-    </div>
-  )
+        </div>
+    )
 }
