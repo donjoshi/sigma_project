@@ -74,7 +74,8 @@ h1{
 }
 .primary{
   height: 53px;
-  font-size: 24px;
+  font-size: 21px;
+  font-weight: 500;
   padding:0 40px ;
   border-radius: 50px;
   background-color:#003F88;
@@ -85,9 +86,10 @@ h1{
 
 .secondary{
   height: 53px;
-  font-size: 24px;
+  font-size: 21px;
   padding:0 40px ;
   border-radius: 50px;
+  font-weight: 500;
   background-color:#fff;
   border:solid 1px #003F88;
   color: #003F88;
@@ -105,4 +107,7 @@ h1{
 p h1 h2 h3{
   text-align: left!important;
   width: fit-content;
+}
+button{
+  cursor: pointer;
 }

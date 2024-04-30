@@ -17,14 +17,14 @@ export default function Page1() {
                     </div>
 
                     <div className="description">
-                        <h1>Find your perfect Employee</h1>
+                        <h1>Find your <br></br>perfect Employee</h1>
                     </div>
                 </div>
-                <div className="buttons">
-                    <button className='Recruit'>
+                <div className="buttons ">
+                    <button className='Recruit primary'>
                         Recruit
                     </button>
-                    <button className="Enquire">
+                    <button className="Enquire secondary">
                         Enquire
                     </button>
                 </div>
