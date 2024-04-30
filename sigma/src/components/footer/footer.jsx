@@ -1,4 +1,6 @@
 import React from 'react'
+import './footer.css'
+
 
 export default function Footer() {
   return (
@@ -17,8 +19,7 @@ export default function Footer() {
                             <rect width="39" height="39" fill="white" />
                         </clipPath>
                     </defs>
-                </svg>
-                <img src="" alt="" />       
+                </svg>  
 
       
     </div>

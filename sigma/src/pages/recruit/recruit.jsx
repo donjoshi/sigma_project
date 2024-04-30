@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/navbar/navbar';
+import './recruit.css';
 
 export default function Recruit() {
     return (

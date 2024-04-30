@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./navbar-main.css";
+
 
 export default function NavbarMain() {
     const [showSignup, setShowSignup] = useState(false);
@@ -43,7 +45,7 @@ export default function NavbarMain() {
     };
 
     return (
-        <div className="main-container">
+        <div className="nav-container">
             <div className="logo">image</div>
 
             <div className="details">
@@ -53,10 +55,10 @@ export default function NavbarMain() {
             </div>
 
             <div className="login">
-                <button className="signup" onClick={handleSignupClick}>
+                <button className="primary small-btn" onClick={handleSignupClick}>
                     Signup
                 </button>
-                <button className="signin" onClick={handleLoginClick}>
+                <button className="secondary small-btn" onClick={handleLoginClick}>
                     Sign in
                 </button>
             </div>

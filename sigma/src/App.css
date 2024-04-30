@@ -81,6 +81,20 @@ h1{
   color: #ffff;
 
 }
+
+.secondary{
+  height: 53px;
+  font-size: 24px;
+  padding:0 40px ;
+  border-radius: 50px;
+  background-color:#fff;
+  border:solid 1px #003F88;
+  color: #003F88;
+
+}
+.small-btn{
+  height: 40px;
+}
 .footer{
   display: flex;
   align-items: center;
