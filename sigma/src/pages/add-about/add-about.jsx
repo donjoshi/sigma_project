@@ -8,7 +8,7 @@ export default function Add_About() {
             <Navbar />
         </div>
 
-        <div className="details">
+        <div className="details-add">
             <div className="add-image">
             <svg width="146" height="147" viewBox="0 0 146 147" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M145.2 73.26C145.2 113.72 112.696 146.52 72.6 146.52C32.5041 146.52 0 113.72 0 73.26C0 32.7996 32.5041 0 72.6 0C112.696 0 145.2 32.7996 145.2 73.26Z" fill="#C4C4C4"/>
@@ -18,11 +18,11 @@ export default function Add_About() {
 picture</span>
 
             </div>
-            <div className="form">
-                <input type="text" name="name" placeholder='Name' />
-                <input type="text" name="job" placeholder='Job Tags'/>
+            <div className="form-add">
+                <input className='fadd' type="text" name="name" placeholder='Name' />
+                <input  className='fadd'type="text" name="job" placeholder='Job Tags'/>
                 <textarea name="description" id="description" cols="30" rows="10" placeholder='Describe yourself...'></textarea>
-                <input className='primary btn-small' type="submit" />
+                <input className='primary btn-small btn-b' type="submit" />
             </div>
         </div>
 
