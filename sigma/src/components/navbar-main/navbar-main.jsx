@@ -88,7 +88,7 @@ export default function NavbarMain() {
                         bottom: 'auto',
                         transform: 'translate(-50%, -50%)',
                         marginRight: '-50%',
-                        width: '30%',
+                        width: '30vw',
                         height: 'Auto',
                         margin: 'auto',
                         padding: '20px',
