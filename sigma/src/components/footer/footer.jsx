@@ -20,6 +20,7 @@ export default function Footer() {
                         </clipPath>
                     </defs>
                 </svg>  
+                
 
       
     </div>

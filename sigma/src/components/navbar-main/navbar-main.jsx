@@ -49,9 +49,9 @@ export default function NavbarMain() {
             <div className="logo">image</div>
 
             <div className="details">
-                <button className="about">About</button>
-                <button className="contact">Contact us</button>
-                <button className="service">Service</button>
+                <span className="about nav-item">About</span>
+                <span className="contact  nav-item">Contact us</span>
+                <span className="service nav-item">Service</span>
             </div>
 
             <div className="login">
