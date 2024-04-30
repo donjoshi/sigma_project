@@ -12,7 +12,7 @@ export default function Page1() {
             <div className="content">
                 <div className="content1">
                     <div className="image">
-                        img
+                        <img src="Images/Asset 5 1.png" alt="" />
                     </div>
 
                     <div className="description">
