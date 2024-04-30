@@ -5,4 +5,5 @@
     display: flex;
     gap: 24px;
     align-items: center;
+    padding: 24px;
 }

@@ -59,7 +59,7 @@ button{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 4vw;
+  margin: 15vh 2.5vw;
 }
 .hero-image{
   width: 289px;

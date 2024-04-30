@@ -28,13 +28,13 @@ export default function Recruit() {
                             placeholder="No of Labours required"
                         />
 
-                        <input type="date" id="date" name="date" placeholder="Date" />
+                        <input className='date' type="date" id="date" name="date" placeholder="Date" />
 
                         <input type="text" id="time" name="time" placeholder="Time duration" />
 
                         <input type="text" id="location" name="location" placeholder="Location" />
 
-                        <button type="submit">Proceed to pay</button>
+                        <button className='primary' type="submit">Proceed to pay</button>
                     </form>
                 </div>
             </div>
