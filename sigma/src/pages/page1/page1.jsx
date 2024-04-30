@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/navbar/navbar'
 import Footer from '../../components/footer/footer'
 
+
 export default function Page1() {
     return (
         <div className="main-container">
@@ -12,7 +13,7 @@ export default function Page1() {
             <div className="content">
                 <div className="content1">
                     <div className="image">
-                        <img src="Images/Asset 5 1.png" alt="" />
+                        <img src="Images\🦆 illustration _Logo design design brand branding_.png" alt="" />
                     </div>
 
                     <div className="description">
