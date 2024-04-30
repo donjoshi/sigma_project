@@ -11,14 +11,14 @@ export default function Verification() {
 
             <div className="content">
                 <div className="image">
-                    img
+                    <img src="Images\Ellipse 5.png" alt="" />
                 </div>
                 <div className="sentence">
-                    <p>The verification code has been sent to your
-                        registered mobile number and email id</p>
+                    <span className='para'>The verification code has been sent to your
+                        registered mobile number and email id</span>
                 </div>
-                <div className="button">
-                    <button>Go Back to Home </button>
+                <div className="buttons">
+                    <button className='primary'>Go Back to Home </button>
                 </div>
 
             </div>
