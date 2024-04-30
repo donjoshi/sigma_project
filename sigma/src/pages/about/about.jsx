@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/navbar/navbar'
+import './about.css'
 
 export default function About() {
   return (
