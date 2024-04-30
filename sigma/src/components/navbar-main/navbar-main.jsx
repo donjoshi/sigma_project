@@ -36,6 +36,8 @@ export default function NavbarMain() {
         // Add your login form submission logic here
         // You can access form data using e.target.elements
         console.log("Login Form submitted!");
+
+        
         // Reset form or close popup
         setShowLogin(false);
     };
