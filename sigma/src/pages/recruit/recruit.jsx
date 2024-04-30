@@ -4,9 +4,16 @@ import './recruit.css';
 // import Dropdown from 'react-bootstrap/Dropdown';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Recruit() {
+
+    const navigate = useNavigate();
+
+    const handleProceedToPay = () => {
+        navigate('/verification');
+    }
 
     const options = [
         'Type of occupation','Plumbing', 'Electrical', 'Construction'
@@ -23,12 +30,6 @@ export default function Recruit() {
                 </div>
                 <div className="form">
                     <form>
-                        {/* <select name="type" id="type">
-                            <option value="">Type of occupation</option>
-                            <option value="plumbing">Plumbing</option>
-                            <option value="electrical">Electrical</option>
-                            <option value="construction">Construction</option>
-                        </select> */}
 
                         <Dropdown className='drop-down' options={options}  value={defaultOption} 
                         placeholder="Select an option"
@@ -50,7 +51,7 @@ export default function Recruit() {
 
                         <input type="text" id="location" name="location" placeholder="Location" />
 
-                        <button className='primary' type="submit">Proceed to pay</button>
+                        <button className='primary' type="submit" onClick={handleProceedToPay}>Proceed to pay</button>
                     </form>
                 </div>
             </div>

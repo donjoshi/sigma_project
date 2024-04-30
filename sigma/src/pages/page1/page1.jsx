@@ -2,8 +2,14 @@ import React from 'react'
 import Navbar from '../../components/navbar/navbar'
 import Footer from '../../components/footer/footer'
 import './page1.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function Page1() {
+    const navigate = useNavigate();
+
+    const handleRecruitClick = () => {
+        navigate('/recruit');
+    }
     return (
         <div className="main-container">
             <div>
@@ -21,7 +27,7 @@ export default function Page1() {
                     </div>
                 </div>
                 <div className="buttons ">
-                    <button className='Recruit primary'>
+                    <button className='Recruit primary' onClick={handleRecruitClick}>
                         Recruit
                     </button>
                     <button className="Enquire secondary">
