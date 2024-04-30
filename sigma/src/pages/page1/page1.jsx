@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/navbar/navbar'
 import Footer from '../../components/footer/footer'
+import './page1.css';
 
 export default function Page1() {
     return (
@@ -12,7 +13,7 @@ export default function Page1() {
             <div className="content">
                 <div className="content1">
                     <div className="image">
-                        img
+                        <img src="Images\🦆 illustration _Logo design design brand branding_.png" alt="" />
                     </div>
 
                     <div className="description">

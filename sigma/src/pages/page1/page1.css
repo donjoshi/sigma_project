@@ -1,0 +1,13 @@
+.content{
+    margin: 0 10vw;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+.description{
+    width: fit-content;
+}

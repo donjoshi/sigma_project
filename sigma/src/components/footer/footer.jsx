@@ -20,6 +20,8 @@ export default function Footer() {
                         </clipPath>
                     </defs>
                 </svg>  
+                <img src="Images\WhatsApp Inc. - png.png" alt="" />
+                
 
       
     </div>
