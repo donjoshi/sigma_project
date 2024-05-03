@@ -7,3 +7,8 @@
 .sentence{
     display: inline-block;
 }
+
+.image-inside
+{
+    height: 300px;
+}

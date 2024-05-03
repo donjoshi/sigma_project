@@ -17,7 +17,7 @@ export default function Verification() {
 
             <div className="content">
                 <div className="image">
-                    <img src="Images\Ellipse 5.png" alt="" />
+                    <img src="Images\Ellipse 5.png" alt="" className='image-inside' />
                 </div>
                 <div className="sentence">
                     <span className='para'>The verification code has been sent to your
